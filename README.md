@@ -4,6 +4,8 @@
 
 This project contains the firmware and LiveKit agent, which if deployed together, can turn a SenseCap Watcher (ESP32S3) into a miniature toy impersonating Wheatly from Portal 2.
 
+https://github.com/user-attachments/assets/b0c4e97e-b597-4790-9cd6-525c81040629
+
 # Requirements
 
 - SenseCap Watcher: [Buy here - 99$ - Coupon: 5EB420ZS](https://www.seeedstudio.com/SenseCAP-Watcher-W1-A-p-5979.html?sensecap_affiliate=3gToNR2&referring_service=link)
