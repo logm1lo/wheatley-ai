@@ -1,8 +1,8 @@
+![Thumbnail](./media/thumbnail/thumb2.jpg)
+
 # Wheatly: Real-time conversational AI on ESP32-S3 using LiveKit and WebRTC
 
 This project contains the firmware and LiveKit agent, which if deployed together, can turn a SenseCap Watcher (ESP32S3) into a miniature toy impersonating Wheatly from Portal 2.
-
-Video here
 
 # Requirements
 
@@ -139,3 +139,7 @@ pnpm dev
 The project is made by Pham Tuan Binh and distributed under the GNU LESSER GENERAL PUBLIC LICENSE v2.1.
 
 If you wish to commercialize the project, please contact me at binhpham@binhph.am
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=pham-tuan-binh/wheatley-ai&type=Date)](https://star-history.com/#pham-tuan-binh/wheatley-ai&Date)
