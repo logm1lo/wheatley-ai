@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package livekit;
+option go_package = "github.com/livekit/protocol/proto/livekit";
+
+import "livekit_models.proto";
+
+message WebhookEvent {
+  // one of room_started, room_finished, participant_joined, participant_left, recording_finished
+  string event = 1;
+
+  Room room = 2;
+
+  // set when event is participant_*
+  ParticipantInfo participant = 3;
+
+  // set when event is recording_finished
+  RecordingResult recording_result = 4;
+}
+
+message RecordingResult {
+  string id = 1;
+  string error = 2;
+  int64 duration = 3;
+  string download_url = 4;
+}

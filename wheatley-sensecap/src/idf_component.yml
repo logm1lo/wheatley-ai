@@ -1,0 +1,12 @@
+dependencies:
+  idf:
+    version: ">=4.1.0"
+  espressif/es8311: "^1.0.0~1"
+  sensecap-watcher:
+    override_path: "../sensecap_components/sensecap-watcher"
+  esp_io_expander_pca95xx_16bit:
+    override_path: "../sensecap_components/esp_io_expander_pca95xx_16bit"
+  esp_lvgl_port:
+    override_path: "../sensecap_components/esp_lvgl_port"
+  sscma_client:
+    override_path: "../sensecap_components/sscma_client"
